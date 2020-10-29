@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# react-router
+react-router包含3个库，react-router、react-router-dom和react-router-native。react-router提供最基本的路由功能，实际使用的时候不会直接安装react-router,而是根据应用运行的环境安装react-router-dom(在浏览器中使用)或react-router-native(在rn中使用)。react-router-dom 和 react-router-native都依赖react-router,所以在安装时react-router会自动安装。
+
+react-router中奉行一切皆组件的思想，路由器-Router、链接-Link、路由-Route、独占-Switch、重定向-Redirect都以组件形式存在。
+
 ## Available Scripts
 
 In the project directory, you can run:
